@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About Us</title>
+        <link rel="icon" href="../assets/images/favicon.png" type="image/icon type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            section{
+                width: 100%;
+                height: 11vh;
+                background-color: white;
+            }
+
+            section nav{
+                width: 75%;
+                height: 11vh;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            section nav ul{
+                list-style: none;
+                display: flex;
+            }
+
+            section nav h1{
+                font-size: 1.7rem;
+            }
+
+            section nav ul a{
+                text-decoration: none;
+                margin-right: 30px;
+                color: black;
+            }
+
+            section nav ul a:hover{
+                color: red;
+            }
+
+            hr{
+                background-color: black;
+                height: 0.4vh;
+            }
+
+            .container{
+                height: 88.6vh;
+                width: 100%;
+                background-image: linear-gradient(#5485bd,#ff6b8f);
+            }
+
+            .container .about_us{
+                width: 80%;
+                height:85%;
+                margin: auto;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .container .about_us div{
+                width: 45%;
+                height: 90%;
+                display: flex;
+                align-items: center;
+            }
+
+            .container .about_us div p{
+                font-size: 1.4rem;
+                color: white;
+            }
+
+            .container footer{
+                width: 80%;
+                height: 10vh;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .container footer small{
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <nav>
+                <h1>日本語クイズ</h1>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/select">SELECT</a></li>
+                    <li><a href="/about_us">ABOUT US</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <hr/>
+
+        <section class="container">
+            <div class="about_us">
+                <div>
+                    <img src="https://cdna.artstation.com/p/assets/images/images/006/893/468/large/aleksandra-khomenko-menu-bg.jpg?1502060892" alt="" width="100%"/>
+                </div>
+                <div>
+                    <p>If you learn Japanese, you will be able to understand animations, movies, variety shows, news, and any mainstream Japanese media! This allows you to follow pop-culture, current events, history, and many other things in the original language, allowing for a deeper connection to Japan traditional and pop culture.</p>
+                </div>
+            </div>
+
+            <footer>
+                <small>LearnJapanese@gmail.com</small>
+                <small>Thanks For Visiting Our Website</small>
+            </footer>
+        </section>
+    </body>
+</html>

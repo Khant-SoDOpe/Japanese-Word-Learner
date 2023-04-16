@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="../assets/images/favicon.png" type="image/icon type">
+        <title>Select</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            section{
+                width: 100%;
+                height: 11vh;
+                background-color: white;
+            }
+
+            section nav{
+                width: 75%;
+                height: 11vh;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            section nav ul{
+                list-style: none;
+                display: flex;
+            }
+
+            section nav h1{
+                font-size: 1.7rem;
+            }
+
+            section nav ul a{
+                text-decoration: none;
+                margin-right: 30px;
+                color: black;
+            }
+
+            section nav ul a:hover{
+                color: red;
+            }
+
+            hr{
+                background-color: black;
+                height: 0.4vh;
+            }
+
+            .select{
+                width: 90%;
+                height: 88.5vh;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+
+            .select .hiragana{
+                width: 45%;
+                height: 75%;
+                background-image: linear-gradient( #137297,#F49479);
+                border: 2px solid black;
+            }
+            .select .hiragana .img{
+                width: 90%;
+                height: 50%;
+                margin: 3% 0 0 5%;
+            }
+
+            .select .hiragana .img img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .select .hiragana .text{
+                width: 90%;
+                height: 43%;
+                margin: 1% 0 0 5%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+
+            .select .hiragana .text h1{
+                font-size: 1.8rem;
+                color: white;
+    
+            }
+
+            .select .hiragana .text p{
+                color: white;
+            }
+
+            .select .hiragana .text a{
+                color: white;
+                text-decoration: none;
+                font-size: 1.4rem;
+                padding: 5px 35px;
+                background-color:#093d52 ;
+                margin: 100px 0;
+                margin-top: 10% ;
+                margin-left: 40%;
+                border-radius: 50px;
+            }
+
+            .select .hiragana .text a:hover{
+                background-color: #137297;
+            }
+
+            .select .katakana{
+                width: 45%;
+                height: 75%;
+                background-image: linear-gradient( #8bb9b8,#0d4d66);
+                border: 2px solid black;
+            }
+            .select .katakana .img{
+                width: 90%;
+                height: 50%;
+                margin: 3% 0 0 5%;
+            }
+
+            .select .katakana .img img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .select .katakana .text{
+                width: 90%;
+                height: 43%;
+                margin: 1% 0 0 5%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+
+            .select .katakana .text h1{
+                font-size: 1.8rem;
+                color: white;
+    
+            }
+
+            .select .katakana .text p{
+                color: white;
+            }
+
+            .select .katakana .text a{
+                color: white;
+                text-decoration: none;
+                font-size: 1.4rem;
+                padding: 5px 35px;
+                background-color:#093d52 ;
+                margin: 100px 0;
+                margin-top: 10% ;
+                margin-left: 40%;
+                border-radius: 50px;
+            }
+
+            .select .katakana .text a:hover{
+                background-color: #137297;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <section>
+            <nav>
+                <h1>日本語クイズ</h1>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/select">SELECT</a></li>
+                    <li><a href="/about_us">ABOUT US</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <hr/>
+
+        <section class="select">
+            <div class="hiragana">
+                <div class="img">
+                    <img src="https://cdn.discordapp.com/attachments/1053153315275407475/1058365264745484288/HD_wallpaper__digital_painting_Japanese_Art_landscape_Fangpeii.jpg" alt="hiragana" width="100%"  />
+                </div>
+
+                <div class="text">
+                    <h1>Hiragana</h1>
+                    <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    <span><a href="/hiragana">QUIZ</a></span>
+                </div>
+            </div>
+            <div class="katakana">
+                <div class="img">
+                    <img src="https://cdn.discordapp.com/attachments/1053153315275407475/1058365264426709042/HD_wallpaper__sea_Asia_waves_artwork_Japanese_Art_Ukiyo-e_The_Great_Wave_off_Kanagawa.jpg" alt="" width="100%"  />
+                </div>          
+                <div class="text">  
+                    <h1>Katakana</h1>
+                    <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    <span><a href="/katakana">QUIZ</a></span>
+                </div> 
+            </div>
+        </section>
+
+    </body>
+</html>
